@@ -124,6 +124,7 @@ body {
   }
   .container .item-description {
     padding: 3.2rem;
+    height: 100%;
   }
   .container .item-image .item-image-mobile {
     display: none;
