@@ -76,7 +76,7 @@ body {
 			justify-content: flex-start;
 			align-items: center;
 			gap: 1.9rem;
-			padding: 2.4rem 0 2rem;
+			padding: 2.4rem 0 0;
 
 			.item-price-discount {
 				color: hsla(157, 36%, 37%, 1);
@@ -99,6 +99,7 @@ body {
 			align-items: center;
 			gap: 1.16rem;
 			width: 100%;
+            margin-top: 2rem;
 			padding: 1.6rem 0;
 			background-color: hsla(157, 36%, 37%, 1);
 			border: none;
@@ -125,6 +126,15 @@ body {
 		.item-description {
 			padding: 3.2rem;
             height: 100%;
+
+            .item-btn {
+                margin-top: 3rem;
+            }
+    
+            .item-btn:hover,
+            .item-btn:active {
+                background-color: hsla(157, 43%, 18%, 1);
+            }
 		}
 		.item-image {
 			.item-image-mobile {
@@ -136,9 +146,5 @@ body {
 			}
 		}
 
-		.item-btn:hover,
-		.item-btn:active {
-			background-color: hsla(157, 43%, 18%, 1);
-		}
 	}
 }
